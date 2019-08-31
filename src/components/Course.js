@@ -25,7 +25,7 @@ class Card extends React.Component{
                     <div className="card-body">
                         <h4 className="card-title">{titulo}</h4>
                         <p className="card-text">{descripcion}</p>
-                        <a href="#" className="btn btn-danger btn-block">Leer Mas</a>
+                        <a href="#" className="btn btn-dark btn-block">Leer Mas</a>
                     </div>
                 </div>  
         )
