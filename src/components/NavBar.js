@@ -4,6 +4,7 @@ import Login from './Login'
 import Inicio from '../pages/Inicio'
 import NuevoCurso from '../pages/NuevoCurso'
 import Logo from '../img/logo512.png'
+import PaginaApi from '../pages/Rick&Morty/PaginaApi'
 import './css/NavBar.css'
 
 const NavBar = () => (
@@ -34,11 +35,13 @@ const NavBar = () => (
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">Novedades</a>
-                    </li>
-                    <li className="nav-item">
                         <a href="#" className="nav-link">Contacto</a>
                     </li>
+                    <li className="nav-item">
+                        <Link to="/api" className="nav-link">
+                            <a href={PaginaApi}>Rick & Morty</a>
+                        </Link>
+                    </li>     
                 </ul>
                 {/* <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search"/>

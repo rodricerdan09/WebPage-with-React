@@ -5,6 +5,7 @@ import Login from '../components/Login'
 import Inicio from '../pages/Inicio'
 import NuevoCurso from '../pages/NuevoCurso'
 import NotFound from '../pages/NotFound'
+import PaginaApi from '../pages/Rick&Morty/PaginaApi'
 import 'bootstrap/dist/css/bootstrap.css'
 
 const App = () => (
@@ -15,7 +16,8 @@ const App = () => (
                         <Route exact path="/login" component={Login} />
                         <Route exact path="/nuevocurso" component={NuevoCurso} />
                         <Route exact path="/404" component={NotFound}/>
-                        <Redirect from="*" to="/404"/>       
+                        <Route exact path="/api" component={PaginaApi}/>    
+                        <Redirect from="*" to="/404"/>  
                     </Switch>
                 </Layout>
             </Router>
