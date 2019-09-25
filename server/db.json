@@ -1,0 +1,25 @@
+{
+    "cursos" : [
+
+    { "id" : "d00d3614-101a-44ca-b6c2-0be075aeed3d",
+    "coverpage": "http://lorempixel.com/400/200/technics/",
+    "title": "Curso 1",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet."
+  },
+  {"id" : "2de30c42-9deb-40fc-a41f-05e62b5939a7",
+    "coverpage": "http://lorempixel.com/400/200/technics/",
+    "title": "Curso 2",
+    "description":"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet."  
+  },
+  {"id" : "63c03386-33a2-4512-9ac1-354ad7bec5e9",
+    "coverpage": "http://lorempixel.com/400/200/technics/",
+    "title": "Curso 3",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet."
+  },
+  {"id" : "63c03386-33a1-4512-b5c1-354ad7bec5e9",
+    "coverpage": "http://lorempixel.com/400/200/technics/",
+    "title": "Curso 4",
+    "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet." 
+  }
+    ]
+}
